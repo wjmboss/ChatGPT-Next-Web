@@ -77,6 +77,10 @@ export const ALL_MODELS = [
     name: "ada:ft-personal:miyu-2023-05-05-09-24-19",
     available: true,
   },
+  {
+    name: "ada:ft-personal:health-2023-05-07-04-19-13",
+    available: true,
+  },
 ] as const;
 
 export type ModelType = (typeof ALL_MODELS)[number]["name"];
